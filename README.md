@@ -1,13 +1,13 @@
 # Multithreaded TCP Chat Application
 
- A real-time chat application demonstrating Client-Server architecture. The project utilizes Python's low-level socket library for network communication and threading to handle multiple concurrent client connections without blocking the server.
+  A real-time chat application demonstrating Client-Server architecture. The project utilizes Python's low-level socket library for network communication and threading to handle multiple concurrent client connections without blocking the server.
 
 ## 🛠️ Technologies Used
- Language: Python 3.x
+ * Language: Python 3.x
  
- Networking: socket (TCP/IP protocol)
+ * Networking: socket (TCP/IP protocol)
  
- Concurrency: threading
+ * Concurrency: threading
 
 ## ⚙️ Configuration & Setup
  Important: The default code is configured for a specific LAN IP (192.168.100.2). To run this locally on your machine, you must update the IP address settings.
@@ -34,24 +34,25 @@
  client.connect(('127.0.0.1', 9999))
 
 ## 💻 How to Run
- Start the Server: Open a terminal window and run:
+ * Start the Server: Open a terminal window and run:
  
  Bash
  
  python Server.py
  Output: Server is listening...
  
- Start the Client(s): Open a new terminal window (you can open multiple terminals to simulate multiple users) and run:
+ * Start the Client(s): Open a new terminal window (you can open multiple terminals to simulate multiple users) and run:
  
  Bash
  
  python Client.py
- Usage:
  
- Enter a nickname when prompted.
+ * Usage:
  
- Type messages to broadcast them to all connected users.
+   * Enter a nickname when prompted.
  
- Enter your nickname when prompted.
+   * Type messages to broadcast them to all connected users.
  
- Start typing messages!
+   *  Enter your nickname when prompted.
+ 
+   *  Start typing messages!
