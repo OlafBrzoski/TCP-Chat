@@ -2,14 +2,14 @@
 
 A real-time chat application demonstrating Client-Server architecture. The project utilizes Python's low-level socket library for network communication and threading to handle multiple concurrent client connections without blocking the server.
 
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 Language: Python 3.x
 
 Networking: socket (TCP/IP protocol)
 
 Concurrency: threading
 
-# ⚙️ Configuration & Setup
+## ⚙️ Configuration & Setup
 Important: The default code is configured for a specific LAN IP (192.168.100.2). To run this locally on your machine, you must update the IP address settings.
 
 Clone the repository:
@@ -33,7 +33,7 @@ Python
  Change client.connect(('192.168.100.2', 9999)) to:
 client.connect(('127.0.0.1', 9999))
 
-# 💻 How to Run
+## 💻 How to Run
 Start the Server: Open a terminal window and run:
 
 Bash
