@@ -16,7 +16,7 @@ Clone the repository:
 
 Bash
 
-git clone https://github.com/usdg/TCP-Chat.git
+git clone https://github.com/OlafBrzoski/TCP-Chat.git
 cd TCP-Chat
 Update IP Address: Open Server.py and Client.py in your code editor. Change the IP address to '127.0.0.1' (localhost) for local testing.
 
