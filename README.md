@@ -14,39 +14,35 @@
  
  Clone the repository:
  
- Bash
+ ```Bash
  
  git clone https://github.com/OlafBrzoski/TCP-Chat.git
  cd TCP-Chat
+```
  Update IP Address: Open Server.py and Client.py in your code editor. Change the IP address to '127.0.0.1' (localhost) for local testing.
  
  In Server.py:
  
- Python
- 
- Change host = '192.168.100.2' to:
- host = '127.0.0.1' 
- In Client.py:
- 
- Python
- 
-  Change client.connect(('192.168.100.2', 9999)) to:
- client.connect(('127.0.0.1', 9999))
+ Change host = '192.168.100.2' to: host = '127.0.0.1' 
+  
+In Client.py:
+
+Change client.connect(('192.168.100.2', 9999)) to: client.connect(('127.0.0.1', 9999))
 
 ## 💻 How to Run
  * Start the Server: Open a terminal window and run:
  
- Bash
- 
- python Server.py
+``` Bash
+ python3 Server.py
+```
  Output: Server is listening...
  
  * Start the Client(s): Open a new terminal window (you can open multiple terminals to simulate multiple users) and run:
  
- Bash
+ ```Bash
  
- python Client.py
- 
+ python3 Client.py
+ ```
  * Usage:
  
    * Enter a nickname when prompted.
